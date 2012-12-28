@@ -1,0 +1,68 @@
+
+@font-face {
+font-family: "Quicksand_Book";
+src: url("Quicksand_Book.otf") format("opentype");
+}
+
+@font-face {
+font-family: "Quicksand_Light";
+src: url("Quicksand_Light.otf") format("opentype");
+}
+
+
+body {
+  padding: 50px;
+  font: 15px "Quicksand_Book", Lucida Grande, Helvetica, Arial, sans-serif;
+  text-align:justify;
+  background-color: #F2F2F2;
+  background-color: #FFFFFF;
+
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+li {
+	list-style:none;
+	display:inline-block;
+	margin-left:0;
+	margin-right:0em;
+	text-align: center;
+	
+}
+ul{
+	margin-left: 3em;
+}
+
+#title{
+	color:#CD0074	;
+}
+
+#container{
+	position: relative;
+	margin: 0 auto;
+	width: 38em;
+	margin-top: 3em;
+	padding: 3em 4em;
+	background-color:rgba(255,255,255,0.5);
+
+}
+
+#content{
+	margin-left:7em;
+	margin-right:7em;
+	line-height: 110%;
+	
+}
+
+#title{
+font: 38px "Quicksand_Light";
+}
+
+#visual{
+	position:absolute;
+	margin:0;
+	top:0;
+	left:0;
+}
